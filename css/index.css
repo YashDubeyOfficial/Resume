@@ -81,12 +81,11 @@ body
  
 .offset
 {
-    margin-top: 40rem;
-    padding-top: 4rem;
+    padding-top: 5rem;
     background-color: #00000070;
     /* border: .3rem solid purple; */
     padding-bottom: 5rem;
-    margin-top: 12rem;
+    margin-top: 15rem;
     box-shadow: 1px 1px 2rem purple;
     border-radius: 1rem;
 }
@@ -203,20 +202,82 @@ body{
 }
 /* cards ends */
 
+/*Blog starts*/
 
+.Blog{
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+/* Blog ends */
 
 /*Footer page*/
 footer 
 {
-    margin: 4rem 13rem 1rem 13rem;
-    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: 5rem;
     background-color: rgba(0, 0, 0, 0.342);
     box-shadow: 2px 2px 20px purple;
 }
 
 footer .Fc i
 {
-    padding:.5rem;
+    padding:1rem;
+}
+
+footer .Fc a
+{
+    color: lavender;
 }
 
 /*footer ends*/
+
+/* sticky social icons starts */
+.ct-socials {
+    position: fixed;
+    top: 25%;
+    right: 0;
+    list-style: none;
+    padding-left: 0;
+    z-index: 10;
+    margin: 0;
+    -webkit-transition: right 0.25s ease-in-out;
+    transition: right 0.25s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+}
+.ct-socials li {
+    padding: 0px 0;
+}
+.ct-socials li a {
+    background: #3f4653;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    width: 44px;
+    height: 54px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    float: right;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.ct-socials li a:hover {
+   
+}
+
+/* sticky social icons ends */
